@@ -10,3 +10,11 @@ How is the staging area different from the working directory and the repository?
 The staging area includes files from the working directory that you identify as being ready to commit to the repository.  The value is that it gives the user control over exactly what files are commited to the repository for a single commit. This flexibility allows the user to only commit changes that are logically related to each other.
 ~~~~~
 
+~~~~~
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add only the files that have been changed in a logical way to the staging area before commiting them.  You can also use the git diff command either with no arguments or with --staged argument to verify that all of your changes are as expected, both compared to the files in the working directory and the files in the most recent commit.  These comparisons can help you verify that the changes being commited together do fit together logically.
+~~~~~
+
+
+
