@@ -16,5 +16,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 You can add only the files that have been changed in a logical way to the staging area before commiting them.  You can also use the git diff command either with no arguments or with --staged argument to verify that all of your changes are as expected, both compared to the files in the working directory and the files in the most recent commit.  These comparisons can help you verify that the changes being commited together do fit together logically.
 ~~~~~
 
+~~~~~
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
 
-
+Branches can be helpful when a new feature is being added to a program or when a different version of the program is to be created.  In the first example, that branch would likely be merged with the master eventually, but if the feature is complicated, it may take some time before it is ready for merging.
+~~~~~
