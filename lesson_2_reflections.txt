@@ -33,3 +33,9 @@ What is the result of merging the two branches together? Why do we represent it 
 
 The merge results in the combination of the changes from both branches. It is represented in the diagram the way it is to indicate that the changes from all of the commits on both branches are in the resulting merged branch.
 ~~~~~
+
+~~~~~
+What are the pros and cons of Git's automatic mergins vs. always doing merges manually?
+
+There may be merges in which is seems tedious to manually merge conflicts, but this approach is lower risk because Git will never make assumptions about what the coders intended. The main pro is reducing the chance of introducing a bug because an incorrect assumption was made.
+~~~~~
