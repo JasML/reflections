@@ -1,0 +1,12 @@
+~~~~~ 
+What happens when you initialize a repository? Why do you need to do it?
+
+An empty repository is created for that folder and its subfolders. 
+~~~~~
+
+~~~~~  
+How is the staging area different from the working directory and the repository? What value do you think offers?
+
+The staging area includes files from the working directory that you identify as being ready to commit to the repository.  The value is that it gives the user control over exactly what files are commited to the repository for a single commit. This flexibility allows the user to only commit changes that are logically related to each other.
+~~~~~
+
