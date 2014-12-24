@@ -21,3 +21,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 You can work on it offline and then merge and push your updates later.
 ~~~~~
+
+~~~~~
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without a version control system like Git/GitHub, collaboration could involve sharing files by email and keeping archived versions by, say, date. The only thing easier about this method is not having to learn a version control system. Actually keeping track of updates and merging changes with those from other collaborators would be much harder and more error prone.
+~~~~~
