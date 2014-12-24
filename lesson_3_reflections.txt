@@ -27,3 +27,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 Without a version control system like Git/GitHub, collaboration could involve sharing files by email and keeping archived versions by, say, date. The only thing easier about this method is not having to learn a version control system. Actually keeping track of updates and merging changes with those from other collaborators would be much harder and more error prone.
 ~~~~~
+
+~~~~~
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If you are collaborating with others, you should never make changes directly to the master. Changes should be made to a separate branch, which should be checked by your collaborators prior to incorporating the updates into the master. The benefit of changing the master directly is that it is faster and has fewer steps. The benefit of updating a branch and having it checked out prior to incorporating into the master is that there is less chance of messing up the master, which could negatively impact other collaborators.
+~~~~~
